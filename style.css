@@ -1,0 +1,89 @@
+@import "../stylix/palette.css";
+
+window#waybar,
+tooltip {
+  background: alpha(@base00, 1);
+}
+
+* {
+  font-family: "Iosevka Nerd Font Propo";
+  font-size: 14pt;
+  padding: 0;
+  margin: -1px 0px;
+}
+
+window#waybar,
+tooltip {
+  color: @base05;
+}
+
+tooltip {
+  border-color: @base0D;
+}
+
+tooltip label {
+  color: @base05;
+}
+#wireplumber,
+#pulseaudio,
+#sndio {
+}
+#wireplumber.muted,
+#pulseaudio.muted,
+#sndio.muted {
+}
+#upower,
+#battery,
+#language {
+  font-size: 19pt;
+}
+#upower.charging,
+#battery.charging {
+}
+#network {
+}
+#network.disconnected {
+}
+#user {
+}
+#clock {
+}
+#backlight {
+}
+#cpu {
+}
+#disk {
+}
+#idle_inhibitor {
+}
+#temperature {
+}
+#mpd {
+}
+#keyboard-state {
+}
+#memory {
+}
+#window {
+}
+#bluetooth {
+}
+#bluetooth.disabled {
+}
+
+.modules-left #workspaces button label {
+  font-size: 19pt;
+  margin: -1px 4px;
+}
+.modules-left #workspaces button {
+  color: @base06;
+}
+
+.modules-left #workspaces button.focused,
+.modules-left #workspaces button.active {
+  color: @base07;
+}
+
+window#waybar {
+  background-color: transparent;
+}
