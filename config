@@ -2,7 +2,7 @@
   {
     "battery": {
       "format": "{icon}",
-      "format-charging": " ",
+      "format-charging": " ",
       "format-icons": [
         "",
         "",
@@ -19,7 +19,7 @@
         "",
         ""
       ],
-      "format-plugged": ""
+      "format-plugged": ""
     },
     "clock": {
       "format": "{:%a %d %b %H:%M}"
@@ -80,8 +80,8 @@
       "cpu",
       "memory",
       "hyprland/language",
-      "clock",
-      "battery"
+      "battery",
+      "clock"
     ],
     "custom/music": {
       "format": "[{}",
