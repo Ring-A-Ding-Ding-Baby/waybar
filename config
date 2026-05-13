@@ -8,23 +8,15 @@
       "format": "[{:%a %d %b %H:%M}]"
     },
     "cpu": {
+      "interval": 1,
       "format": " {icon0}{icon1}{icon2}{icon3}{icon4}{icon5}{icon6}{icon7} ",
-      "format-icons": [
-       "🁣", "🁤", "🁥", "🁦", "🁧", "🁨", "🁩", 
-       "🁪", "🁫", "🁬", "🁭", "🁮", "🁯", "🁰", 
-       "🁱", "🁲", "🁳", "🁴", "🁵", "🁶", "🁷", 
-       "🁸", "🁹", "🁺", "🁻", "🁼", "🁽", "🁾", 
-       "🁿", "🂀", "🂁", "🂂", "🂃", "🂄", "🂅", 
-       "🂆", "🂇", "🂈", "🂉", "🂊", "🂋", "🂌", 
-       "🂍", "🂎", "🂏", "🂐", "🂑", "🂒", "🂓", "🁢"
-      ],
-      "interval": 1 
+      "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
     },
     "exclusive": true,
     "hyprland/language": {
-      "format": "{}",
-      "format-en": "[E]",
-      "format-ru": "[R]"
+      "format": "[{}]",
+      "format-en": "E",
+      "format-ru": "R"
     },
     "hyprland/workspaces": {
       "format": "{icon}",
@@ -68,7 +60,6 @@
       "format-disconnected": "[Dwn]",
       "format-ethernet": "[Eth]",
       "format-wifi": "[{signalStrength}]",
-      "interval": 1
     },
     "position": "top",
     "pulseaudio": {
