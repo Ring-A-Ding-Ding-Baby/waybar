@@ -13,10 +13,13 @@
   color: @base0A;
 }
 
-#language, #submap {
+#language {
   color: @base08;
 }
 
+#submap {
+  color: @base0C;
+}
 #workspaces button{
   color: @base0B;
 }
