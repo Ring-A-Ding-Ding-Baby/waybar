@@ -1,7 +1,8 @@
 [
   {
     "battery": {
-      "format": "[{capacity}]",
+      "format": "[{time}󰤃{capacity}]",
+      "format-time": "{H}:{m}",
       "states": {
         "half": 50,
         "warning": 30,
@@ -14,8 +15,8 @@
     "exclusive": true,
     "hyprland/language": {
       "format": "{}",
-      "format-en": "[E]",
-      "format-ru": "[R]"
+      "format-en": "[]",
+      "format-ru": "[]"
     },
     "hyprland/workspaces": {
       "format": "{icon}",
@@ -57,15 +58,16 @@
     },
     "network": {
       "format-disconnected": "[D]",
-      "format-ethernet": "[{bandwidtnvim mini aihUpBytes}⮁{bandwidthDownBytes}]",
-      "format-wifi": "[{bandwidthUpBytes}⮁{bandwidthDownBytes}⦚{signalStrength}]",
-      "interval": 1,
+      "format-ethernet": "[{bandwidthUpBytes}⮁{bandwidthDownBytes}]",
+      "format-wifi": "[{bandwidthUpBytes}⮁{bandwidthDownBytes}][{signalStrength}]",
+      "interval": 2,
     },
     "position": "top",
     "pulseaudio": {
-      "format": "{volume}%]",
-      "format-bluetooth": "{volume}%B]",
-      "format-muted": "M]",
+      "format": "{volume}][󰎇]",
+      "format-bluetooth": "{volume}][󰗾]",
+      "format-bluetooth-muted": "{volume}][󰗿]",
+      "format-muted": "󰎊]",
       "tooltip": false
     }
   }

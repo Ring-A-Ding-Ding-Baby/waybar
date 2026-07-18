@@ -42,20 +42,20 @@
 
 #battery.critical {
   color: @base08;
-  animation-name: blink;
-  animation-duration        : 0.5s;
-  animation-timing-function : linear;
-  animation-iteration-count : infinite;
-  animation-direction       : alternate;
+  /* animation-name: blink; */
+  /* animation-duration        : 0.5s; */
+  /* animation-timing-function : linear; */
+  /* animation-iteration-count : infinite; */
+  /* animation-direction       : alternate; */
 }
 
 #battery.charging {
   color: @base0C;
-  animation-name: blinkblue;
-  animation-duration        : 2.0s;
-  animation-timing-function : linear;
-  animation-iteration-count : infinite;
-  animation-direction       : alternate;
+  /* animation-name: blinkblue; */
+  /* animation-duration        : 2.0s; */
+  /* animation-timing-function : linear; */
+  /* animation-iteration-count : infinite; */
+  /* animation-direction       : alternate; */
 }
 
 #network {
